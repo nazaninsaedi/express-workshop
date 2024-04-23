@@ -21,7 +21,15 @@
             <hr/>
             <br/>
 
-            <h2>Recent Posts</h2>
+            <h2>
+                <div class="entry-container">
+                <h3>Create a blog post</h3>
+<form action="/create-post" method="POST">
+    <textarea name="blogpost" rows="10" cols="14"></textarea>
+    <button type="submit">Send</button>
+</form>
+                </div>
+            </h2>
 
             <div class="post-container"></div>
         </main>
